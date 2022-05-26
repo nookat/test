@@ -10,6 +10,13 @@ class User {
 const ivan = new User('ivan', 28)
 console.log(ivan)
 
-function sayHello() {
-  console.log('hello w')
-}
+const getProductCardHtml = () => `
+  <article class="card">
+    <h3 class="card__title">Title</h3>
+    <div class="card__body">
+      <p class="card__desc">Description</p>
+    </div>
+  </article>
+`
+
+console.log(getProductCardHtml())
