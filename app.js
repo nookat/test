@@ -9,3 +9,7 @@ class User {
 
 const ivan = new User('ivan', 28)
 console.log(ivan)
+
+function sayHello() {
+  console.log('hello w')
+}
